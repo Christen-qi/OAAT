@@ -1,13 +1,13 @@
-@font-face {
-  font-family: "Cooper Black";
-  src: url("/fonts/cooper-black.otf");
-}
+/*!
+ * Start Bootstrap - Stylish Portfolio v5.0.9 (https://startbootstrap.com/theme/stylish-portfolio)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+ */
 
 body,
 html {
   width: 100%;
   height: 100%;
-  background-color: #FFF3E5;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 
 /* .btn-xl {
   padding: 1.25rem 2.5rem;
-}
+} */
 
 .content-section {
   padding-top: 7.5rem;
@@ -30,37 +30,29 @@ body {
 .content-section-heading h3 {
   font-size: 1rem;
   text-transform: uppercase;
-} */
+}
 
 .masthead {
-  /* min-height: 30rem; */
+  min-height: 30rem;
   position: relative;
   display: table;
-  width: auto;
+  width: 100%;
   height: auto;
-  /* padding-top: 8rem;
-  padding-bottom: 8rem;
+   /* padding-top: 8rem; */
+  padding-bottom: 3em;
   background: url("../img/bg-masthead.jpg");
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 
-.masthead h1 {
-  font-family: "Cooper Black";
-  position: absolute;
-  font-size: 80px;
-  margin: 30vw;
-  margin-top: 16vh;
-  color: #FCA41C;
-}
 
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
   }
-  .masthead h1 {
-    /* font-size: 5.5rem; */
+  .masthead h3 {
+    font-size: 20pt;
   }
 }
 
@@ -76,55 +68,24 @@ a:hover, a:focus, a:active {
   background-color: #353D88 !important;
   border-color: #353D88 !important;
   color: #fff !important;
-  position: absolute;
   box-sizing: border-box;
-  font-weight: 400;
-  font-size: 24pt;
+  font-size: 20pt;
   text-align: center;
-  margin-left: 44vw;
-  margin-top: 70vh;
-  height: 10vh;
-  width: 12%;
+  margin: center;
+  height: 60px;
+  width: 20%;
   padding: 10px 10px;
-  border-radius: 5vh;
-}
-
-.container h2{
-  position: absolute;
-  text-align: center;
-  margin-top: 104vh;
-  left: 43.4vw;
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.5pt;
-}
-
-.btn-left{
-  position: absolute;
-  margin-top: 74vh;
-  left: 39vw;
-}
-
-.btn-middle{
-  position: absolute;
-  margin-top: 73vh;
-  margin-left: 47vw;
-}
-
-.btn-right{
-  position: absolute;
-  margin-top: 74vh;
-  right: 39vw;
+  border-radius: 30px;
 }
 
 .btn:hover, .btn:focus, .btn:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #353D88 !important;
+  /* border-color: #353D88 !important; */
 }
 
-/* .btn {
-  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
-  font-weight: 700;
-} */
-
-
+.btn-close{
+  right:2vw;
+  top: 3vh;
+  position: fixed;
+  z-index: 3;
+}
